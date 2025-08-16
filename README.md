@@ -23,3 +23,4 @@ Set your Fazpass API key in `config.py`.
 ## License
 MIT
 <!-- updated: 2026-05-31 -->
+
