@@ -18,10 +18,10 @@ def sendOTP(YOUR_PHONE_NUMBER):
             data=json.dumps(data),
             headers=headers
         )
-        
+
         print("Status Code:", response.status_code)
         print("Response Text:", response.text)
-        
+
         result = response.json()
 
         if result.get('status') == True:
